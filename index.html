@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hack4Lack</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <a href="#"><li>Пункт Меню</li></a>
+                <a href="#"><li>Пункт Меню</li></a>
+                <a href="#"><li>Пункт Меню</li></a>
+                <a href="#"><li>Пункт Меню</li></a>
+            </ul>
+        </nav>
+        <div class="search-wrapper">
+            <div class="logo">
+                <img src="./images/lapka.png" alt="">
+                <h2 class="logo-text">Hack4Luck</h2>
+            </div>
+            <div class="search-container">
+                <h3>Нажми на меня, чтобы искать...</h3>
+                <div class="search-box">
+                    <input type="text" placeholder="Искать...">
+                    <div class="search-btn">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="cancel-btn">
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <div class="search-data"></div>
+                </div>
+            </div>
+        </div>
+<!--        Burger Menu-->
+        <div class="menu-icon"><span class="material-symbols-outlined">menu</span></div>
+        <div class="burger-menu">
+            <nav>
+                <ol>
+                    <a href="#"><li>Пункт Меню</li></a>
+                    <a href="#"><li>Пункт Меню</li></a>
+                    <a href="#"><li>Пункт Меню</li></a>
+                    <a href="#"><li>Пункт Меню</li></a>
+                </ol>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Наименование</th>
+                <th>Номер</th>
+                <th>Год</th>
+                <th>Завод</th>
+                <th>Комментарий</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Деталь1</td>
+                <td>Завод1</td>
+                <td>25</td>
+                <td>Брак</td>
+            </tr>
+            <tr>
+                <td>Деталь2</td>
+                <td>Завод3</td>
+                <td>96</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Деталь3</td>
+                <td>Завод3</td>
+                <td>639</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Деталь4</td>
+                <td>Завод1</td>
+                <td>6749</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Деталь5</td>
+                <td>Завод8</td>
+                <td>532</td>
+                <td>Брак</td>
+            </tr>
+            </tbody>
+        </table>
+        <div class="lapkaSearch">
+            <img class="lapkaImg" src="./images/lapka.png" alt="">
+            <img class="microImg" src="./images/Vector.png" alt="">
+        </div>
+        <input type="file" id="audioUpload">
+        <button id="chatgpt"></button>
+    </main>
+    <footer>
+        <img class="ellipse1" src="./images/Ellipse1.svg" alt="">
+        <img class="ellipse2" src="./images/Ellipse2.svg" alt="">
+        <img class="ellipse3" src="./images/Ellipse3.svg" alt="">
+        <div class="elka">
+            <img class="elka1" src="./images/Elka1.svg" alt="">
+            <img class="elka2" src="./images/Elka1.svg" alt="">
+            <img class="elka3" src="./images/Elka1.svg" alt="">
+            <img class="elka4" src="./images/Elka1.svg" alt="">
+            <img class="elka5" src="./images/Elka1.svg" alt="">
+            <img class="elka6" src="./images/Elka1.svg" alt="">
+            <img class="elka7" src="./images/Elka1.svg" alt="">
+        </div>
+
+
+    </footer>
+    <div class="snow_wrap">
+        <div class="snow"></div>
+    </div>
+
+    <div class="audio" id="audio"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="searchBar.js" defer></script>
+    <script src="burgerMenu.js" defer></script>
+    <script src="audioRecord.js" defer></script>
+    <script src="uploadAudio.js"></script>
+</body>
+</html>
