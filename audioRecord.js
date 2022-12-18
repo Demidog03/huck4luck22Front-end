@@ -29,20 +29,9 @@ lapkaBtn.addEventListener('click', ()=>{
     else{
         recorder.start(100)
         lapkaBtn.classList.add('recording')
-
-
-        /**Getting result of yandex speech to text*/
-        // async function getData(url) {
-        //     const result = await fetch(url, {
-        //         method: 'GET',
-        //     })
-        // }
-        //
-        // getData('http://localhost:8080/api/recognition.result?request_id=7')
-
-
-
     }
     })
 })
+
+
 
